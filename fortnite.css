@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.map {
+    background-image: url("./images/map.png")
+}
+
+.title-color {
+    color: #c5d8e1;
+}
+
+nav {
+    background-color: #334553;
+}
+
+body {
+    background-color: #334553;
+    color: #c5d8e1;
+}
+
+.btn,
+.btn-block,
+.btn-lg,
+.btn-success,
+.btn:hover,
+.btn-block:hover,
+.btn-lg:hover,
+.btn-success:hover {
+    background-color: #703770;
+    border-color: #703770;
+    color: #c5d8e1;
+}
