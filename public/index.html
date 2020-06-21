@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Fortnite Tracker</title>
     <!-- Bootstrap -->
-    <link href="../PickleballCounter/css/bootstrap-4.4.1.css" rel="stylesheet">
-    <script src="FortniteApi.js"></script>
+    <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- <script src="FortniteApi.js"></script> -->
     <link href="fortnite.css" rel="stylesheet">
 </head>
 
@@ -102,28 +103,28 @@
                     <blockquote class="blockquote">
                         <h3>Top 1</h3>
                         <p class="mb-0">3</p>
-                        <small class="blockquote-footer"><p id="date"></p> </small>
+                        <small class="blockquote-footer">As of <p id="date"></p></small>
                     </blockquote>
                 </div>
                 <div class="col-sm-6 col-lg-6 text-center">
                     <blockquote class="blockquote">
                         <h3>Win rate</h3>
                         <p class="mb-0">14%</p>
-                        <small class="blockquote-footer">As of 06/17/2020</small>
+                        <small class="blockquote-footer">As of <p id="date"></p></small>
                     </blockquote>
                 </div>
                 <div class="col-sm-6 col-lg-6 text-center">
                     <blockquote class="blockquote">
                         <h3>Total Kills</h3>
                         <p class="mb-0">41</p>
-                        <small class="blockquote-footer">As of 06/17/2020</small>
+                        <small class="blockquote-footer">As of <p id="date"></p></small>
                     </blockquote>
                 </div>
                 <div class="col-sm-6 col-lg-6 text-center">
                     <blockquote class="blockquote">
                         <h3>Minutes played</h3>
                         <p class="mb-0">222</p>
-                        <small class="blockquote-footer">As of 06/17/2020</small>
+                        <small class="blockquote-footer">As of <p id="date"></p></small>
                     </blockquote>
                 </div>
             </div>
@@ -227,12 +228,19 @@
             </div>
         </div>
     </footer>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="../PickleballCounter/js/jquery-3.4.1.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../PickleballCounter/js/popper.min.js"></script>
-    <script src="../PickleballCounter/js/bootstrap-4.4.1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     <script src="./getDate.js"></script>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="/__/firebase/7.15.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="/__/firebase/7.15.3/firebase-analytics.js"></script>
+
+<!-- Initialize Firebase -->
+<script src="/__/firebase/init.js"></script>
 </body>
 
 </html>
