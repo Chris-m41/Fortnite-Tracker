@@ -31,3 +31,7 @@ body {
     border-color: #703770;
     color: #c5d8e1;
 }
+
+.fromTop {
+    margin-top: 200px;
+}
